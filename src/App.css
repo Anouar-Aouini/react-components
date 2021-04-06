@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  border-radius: 60%;
+  width:60%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px rgb(165, 165, 197), 10px 10px 8px rgb(228, 116, 116), 15px 15px 8px
+}
+h1{
+  background-color: rgb(116, 235, 215);
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px rgb(149, 219, 231), 10px 10px 8px rgb(252, 100, 231), 15px 15px 8px
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(131, 131, 173);
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
