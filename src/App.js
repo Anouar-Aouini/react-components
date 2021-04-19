@@ -1,13 +1,13 @@
 import React from "react";
-import MyProfilePhoto from "./Component/Profile/ProfilPhoto.js";
-import MyName from "./Component/Profile/FullName.js";
-import MyAddress from "./Component/Profile/Address.js";
-import StyleSheet from "./App.css";
+import MyProfilePhoto from "./Component/Profile/ProfilPhoto";
+import MyName from "./Component/Profile/FullName";
+import MyAddress from "./Component/Profile/Address";
+import "./App.css";
 const App = () => (
 <>
 <div>
 <MyProfilePhoto/>
-<div className="information">
+<div className="info">
     <MyName/>
     <br/>
     <MyAddress/> 
